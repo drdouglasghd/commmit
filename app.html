@@ -33,7 +33,7 @@
 
       myApp.controller("MyController", ["$scope", "$firebaseArray",
         function($scope, $firebaseArray) {
-          var ref = new Firebase("https://hkfoyzu7msk.firebaseio-demo.com/");
+          var ref = new Firebase("https://crackling-fire-3099.firebaseio.com/");
           $scope.messages = $firebaseArray(ref);
 
           //ADD MESSAGE METHOD
